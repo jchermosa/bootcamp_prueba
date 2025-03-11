@@ -9,6 +9,8 @@ import UIKit
 
 class CellTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var trailingImageView: UIImageView!
+    @IBOutlet weak var tituloLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
